@@ -35,6 +35,8 @@ const fetchContract = (signerOrProvider) =>
   new ethers.Contract(
     NFTMarketplaceAddress,
     NFTMarketplaceABI,
+    transferFundsAddress,
+    transferFundsABI,
     signerOrProvider
   );
 
