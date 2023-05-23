@@ -97,9 +97,9 @@ export const NFTMarketplaceProvider = ({ children }) => {
     }
   };
 
-//   useEffect(() => {
-//     checkIfWalletConnected();
-//   }, []);
+   useEffect(() => {
+     checkIfWalletConnected();
+   }, []);
 
   //---CONNET WALLET FUNCTION
   const connectWallet = async () => {
