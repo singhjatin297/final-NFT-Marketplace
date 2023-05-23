@@ -40,7 +40,7 @@
 
 
 /* //THEME 2 */
-:root{
+/* :root{
   --icons-color: #FFDF2B;
   --icons-light-color: #ffdf2b57;
   --icons-bg-color: #FFDF2B;
@@ -56,7 +56,7 @@
   --box-shadow-2:1px 1px 2px #FFDF2B,
   -1px -1px 2px #FFDF2B;
 
-}
+} */
 
 /* //THEME 3 */
 /* :root{
@@ -222,6 +222,23 @@
   --box-shadow-2:1px 1px 2px #8f2c2c,
   -1px -1px 2px #c13c3c;
 } */
+
+:root{
+  --icons-color: #5DDEE2;
+  --icons-light-color: #5DDEE257;
+  --icons-bg-color: #5DDEE2;
+  --shadow-dark-color: #373939;
+  --bg-shadow-dark-color: #373939;
+  --shadow-light-color: #1B181E;
+  --main-bg-color: #f8e56f;
+
+  --box-shadow: 1px 1px 2px #5DDEE2,
+  -1px -1px 2px #5DDEE2;
+
+  --box-shadow-2:1px 1px 2px #5DDEE2,
+  -1px -1px 2px #5DDEE2;
+
+}
 
 html,
 body {
