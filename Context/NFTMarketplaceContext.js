@@ -184,9 +184,10 @@ export const NFTMarketplaceProvider = ({ children }) => {
 
   const fetchNFTs = async () => {
     try {
+      if (currentAccount) {
       const provider = new ethers.providers.JsonRpcProvider(
         //--process.env.NEXT_PUBLIC_POLYGON_MUMBAI_RPC
-        "https://polygon-mumbai.g.alchemy.com/v2/0awa485pp03Dww2fTjrSCg7yHlZECw-K"
+        "https://polygon-mumbai.g.alchemy.com/v2/a7rfBC-qsWN3K8p0sSE7dnxr1SUu1-wP"
       );
 
       const contract = fetchContract(provider);
@@ -221,7 +222,7 @@ export const NFTMarketplaceProvider = ({ children }) => {
       );
       return items;
 
-      // }
+       }
     } catch (error) {
       // setError("Error while fetching NFTS");
       // setOpenError(true);
