@@ -97,9 +97,9 @@ export const NFTMarketplaceProvider = ({ children }) => {
     }
   };
 
-  useEffect(() => {
-    checkIfWalletConnected();
-  }, []);
+//   useEffect(() => {
+//     checkIfWalletConnected();
+//   }, []);
 
   //---CONNET WALLET FUNCTION
   const connectWallet = async () => {
@@ -117,8 +117,8 @@ export const NFTMarketplaceProvider = ({ children }) => {
       // window.location.reload();
       connectingWithSmartContract();
     } catch (error) {
-      // setError("Error while connecting to wallet");
-      // setOpenError(true);
+       setError("Error while connecting to wallet");
+       setOpenError(true);
     }
   };
 
