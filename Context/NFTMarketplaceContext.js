@@ -231,7 +231,9 @@ export const NFTMarketplaceProvider = ({ children }) => {
   };
 
   useEffect(() => {
+    if (currentAccount) {
     fetchNFTs();
+    }
   }, []);
 
   //--FETCHING MY NFT OR LISTED NFTs
