@@ -176,7 +176,7 @@ const UloadNFT = ({ uploadToIPFS, createNFT }) => {
               </div>
               <input
                 type="text"
-                placeholder="165MB"
+                placeholder="Max size 50MB"
                 onChange={(e) => setFileSize(e.target.value)}
               />
             </div>
